@@ -1,0 +1,10 @@
+r_decal_cullsize 1
+exec joystick.cfg
+exec autoexec.cfg
+stuffcmds
+
+//khud
+cl_disablefreezecam 1
+overview_alpha 0;cl_radar_locked 0;cl_radartype 0;cl_radaralpha 1
+cl_scoreboard_t_color_red 222;cl_scoreboard_t_color_green 155;cl_scoreboard_t_color_blue 53;cl_scoreboard_ct_color_red 93;cl_scoreboard_ct_color_green 121;cl_scoreboard_ct_color_blue 174
+sv_cheats 1;wait 1;clear;wait 1;echo "--------------------------------";echo "    welcome to khud!";echo " github.com/ho9/khud";echo "--------------------------------";showconsole;wait 1;echo
